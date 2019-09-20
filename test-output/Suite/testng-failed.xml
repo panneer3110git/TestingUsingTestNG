@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TestAttribute.RetryTransformer"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="Test(failed)">
+    <classes>
+      <class name="TestAttribute.PriorityPractice1">
+        <methods>
+          <include name="AT"/>
+          <include name="AS"/>
+          <include name="BT"/>
+          <include name="T1"/>
+          <include name="T3"/>
+          <include name="T5"/>
+          <include name="BC"/>
+          <include name="T2"/>
+          <include name="T4"/>
+          <include name="AC"/>
+          <include name="BM"/>
+          <include name="AM"/>
+          <include name="BS"/>
+        </methods>
+      </class> <!-- TestAttribute.PriorityPractice1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
